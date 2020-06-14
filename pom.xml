@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://172.31.2.113:8081/repository/maven-releases/</url>
+            <url>http://ec2-3-6-88-221.ap-south-1.compute.amazonaws.com:8081/repository/MVN_RELEASE/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://172.31.2.113:8081/repository/maven-snapshots/</url>
+            <url>http://ec2-3-6-88-221.ap-south-1.compute.amazonaws.com:8081/repository/MVN_SNAPSHOT/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
